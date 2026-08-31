@@ -1,0 +1,48 @@
+# Aule profile patch layer, applied after every bundle layer.
+# Patch entries replace the target row's whole config, so each entry
+# restates every field the row needs.
+
+# Campus model route: llm.karunya.edu serves sofie-think-0 (256K context).
+# Wired through the pi-ai hand-declared-gateway posture; the credential is
+# resolved per request from the SOFIE_API_KEY environment variable
+# (machine-level, from ~/.dsh/.env).
+- id: llm-pi-ai
+  name: '@deepseek-ai/dsh-llm-pi-ai'
+  config:
+    providers:
+      campus:
+        displayName: Karunya Campus LLM
+        apiKeyEnv: SOFIE_API_KEY
+        api: openai-completions
+        baseURL: https://llm.karunya.edu/v1
+        reasoning: high
+        compat:
+          # The gateway's chat template requires the system prompt as a
+          # leading `system` message, not the `developer` role.
+          supportsDeveloperRole: false
+          thinkingFormat: deepseek
+        models:
+          - id: sofie-think-0
+            name: Sofie Think 0
+            contextWindow: 262144
+            # Wire vocabulary of the campus gateway (LiteLLM over vLLM):
+            # xhigh is the default and best effort; there is no off level.
+            reasoningEfforts:
+              high: xhigh
+              medium: medium
+              low: low
+
+# Enable web_fetch for monitors (base ships it disabled; restate the fields
+# the base row keeps).
+- id: tool-web
+  name: '@deepseek-ai/dsh-tool-web'
+  config:
+    fetch: true
+    searchTimeoutMs: 60000
+
+# Default model for agents created by entry points: the campus route.
+- id: agent-default-model
+  name: '@deepseek-ai/dsh-agent-default-model'
+  config:
+    provider: campus
+    model: sofie-think-0
