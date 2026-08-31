@@ -18,4 +18,4 @@ fi
 # The invoking directory is the dsh workspace root: run from aule so the
 # agent's file tools are confined here.
 cd "$AULE"
-exec "$HARNESS/node_modules/.bin/dsh" --profile aule "$(cat "$1")"
+exec node "$HARNESS/apps/cli/lib/bin.js" --profile aule "$(cat "$1")"

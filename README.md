@@ -37,7 +37,7 @@ From the harness checkout, with this repo as the workspace root:
 
 ```sh
 cd ~/workspace/workspace-ewards/aule
-~/workspace/workspace-ewards/deepseek-harness/node_modules/.bin/dsh --profile aule "your task"
+node ~/workspace/workspace-ewards/deepseek-harness/apps/cli/lib/bin.js --profile aule "your task"
 ```
 
 Monitors (cron-driven, off-peak):
