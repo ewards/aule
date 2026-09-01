@@ -7,10 +7,10 @@ One file per problem in `problems/`. Status lifecycle:
 | id | title | source | deadline | status |
 |----|-------|--------|----------|--------|
 | revenuecat-shipaton-2026 | RevenueCat Shipaton 2026 | hackathon | 2026-10-01 | shortlisted |
-| allthingsagentichackathon | All Things Agentic Hackathon | hackathon | 2026-08-31 | shortlisted |
-| agentic-cinema | Agentic Cinema: The Blockbuster Hackathon | hackathon | 2026-09-09 | shortlisted |
-| agentsforhumans | Agents for Humans Hackathon | hackathon | 2026-09-14 | shortlisted |
-| webmcp | The WebMCP Challenge | hackathon | 2026-09-03 | shortlisted |
+| allthingsagentichackathon | All Things Agentic Hackathon | hackathon | 2026-08-31 | closed |
+| agentic-cinema | Agentic Cinema: The Blockbuster Hackathon | hackathon | 2026-09-09 | ideated |
+| agentsforhumans | Agents for Humans Hackathon | hackathon | 2026-09-14 | ideated |
+| webmcp | The WebMCP Challenge | hackathon | 2026-09-03 | ideated |
 | call-e | CALL-E: Your Code Is Calling | hackathon | 2026-09-14 | shortlisted |
 | tiktoktechjam2026 | TikTok TechJam 2026 | hackathon | 2026-09-01 | new |
 | nebiusglobalaihackathon | Nebius x NVIDIA Global AI Hackathon | hackathon | 2026-10-30 | shortlisted |

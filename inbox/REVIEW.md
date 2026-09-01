@@ -7,6 +7,11 @@ Nothing in this file is model-owned state — it is the handoff to a human.
 
 <!-- newest first -->
 
+2026-09-01: CLOSED: All Things Agentic Hackathon (deadline 2026-08-31)
+2026-09-01: IDEATED: The WebMCP Challenge — 23 candidates, top: Measured Baseline Pitch
+2026-09-01: IDEATED: Agentic Cinema: The Blockbuster Hackathon — 23 candidates, top: Seeded Replay
+2026-09-01: IDEATED: Agents for Humans Hackathon — 23 candidates, top: The Decision Inbox
+
 2026-09-01: PRIORITY 72h: AI YES :International Youth AI Competition — 2026-09-01 (new)
 2026-09-01: PRIORITY 72h: Smart City Hackathon Lahore — 2026-09-01 (new)
 2026-09-01: PRIORITY 72h: TikTok TechJam 2026 — 2026-09-01 (new)
