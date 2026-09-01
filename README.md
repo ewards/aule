@@ -12,10 +12,15 @@ cross-domain, inversion) with judged, ranked output.
 - `profile/` — the `aule` dsh profile (bundles: `dsh-base` + `dsh-headless`;
   campus model route in `cordis.patch.yml`). Symlinked to `~/.dsh/profiles/aule`.
 - `problems/` — the problem repository (one markdown file per problem + `INDEX.md`).
-- `ideas/` — brainstorming sets and ranked shortlists per problem.
+- `ideas/` — brainstorming sets and ranked shortlists per problem
+  (see `ideas/README.md`).
+- `skills/` — the brainstorm technique playbooks (TRIZ, SCAMPER,
+  first-principles, cross-domain, inversion) and the judging rubric,
+  read by the brainstorm monitor at run time.
 - `inbox/REVIEW.md` — the monitor → human review queue.
 - `digests/` — dated trend digests from the trends monitor.
-- `monitors/` — cron-driven headless tasks (`radar.md`, `trends.md`) + `run.sh`.
+- `monitors/` — cron-driven headless tasks (`radar.md`, `brainstorm.md`,
+  `trends.md`) + `run.sh`.
 - `whitelist.yaml` — organizer whitelist (ministry/PSU/IIT/corporate fit floor),
   ported from hackathon-radar.
 
@@ -45,8 +50,9 @@ node ~/workspace/workspace-ewards/deepseek-harness/apps/cli/lib/bin.js --profile
 Monitors (cron-driven, off-peak):
 
 ```sh
-monitors/run.sh monitors/radar.md     # discovery: Devpost + HackerEarth, nightly
-monitors/run.sh monitors/trends.md    # arXiv + HN digest, Mondays
+monitors/run.sh monitors/radar.md       # discovery: Devpost + HackerEarth, nightly
+monitors/run.sh monitors/brainstorm.md  # ideation: next 3 shortlisted problems, nightly
+monitors/run.sh monitors/trends.md      # arXiv + HN digest, Mondays
 ```
 
 Discovery rules (owned by `monitors/radar.md`): dedupe against `problems/INDEX.md`
@@ -56,6 +62,17 @@ by source url, ingest cap of 15 per run, `whitelist.yaml` organizer matches get 
 `DEADLINE CHANGED`, and source failures leave a `source-health` note. All of these
 land in `inbox/REVIEW.md` — the monitor never alerts outside the repository.
 
+Ideation rules (owned by `monitors/brainstorm.md`): at most 3 shortlisted
+problems per run (whitelisted first, then nearest deadline); each problem
+gets one `ideas/<slug>/set-<n>.md` per technique method (TRIZ, SCAMPER,
+first-principles, cross-domain, inversion, in that order) built only from
+the problem file itself; all sets are re-judged into the problem's
+`ranked.md` against the four-criterion rubric (weights follow the
+problem's explicit judging criteria when it states any). A problem is
+`ideated` once all five methods are covered and `closed` when its
+deadline passes; `CLOSED` / `IDEATED` / `IDEATING` lines land in
+`inbox/REVIEW.md`.
+
 Provenance: the Python/Docker `hackathon-radar` project (retired 2026-09-01) is the
 source of the fetcher endpoints and verification notes, `whitelist.yaml`, the alert
 rules, and the first-run source-health check. Its Postgres store, Docker scheduler,
@@ -64,10 +81,14 @@ host cron replace them.
 
 ## Conventions
 
-- Monitors only add: new `problems/` entries, `digests/`, and `inbox/` queue lines.
-  They never edit existing problems or ideas, and never delete.
-- Human gates: problems are shortlisted, idea sets are judged and marked
-  accepted/rejected, by a human, in the markdown files.
+- Monitors only add: new `problems/` entries, `ideas/` sets, `digests/`,
+  and `inbox/` queue lines. The only existing text a monitor edits is a
+  problem's `status` field (lifecycle transitions) and its `INDEX.md`
+  status cell. Monitors never edit problem content or existing ideas,
+  and never delete.
+- Human gates: problems are shortlisted by a human; ideas are judged by
+  the brainstorm monitor and marked accepted / rejected / park by a human
+  in each `ranked.md`'s Decisions section.
 - No paid web APIs: monitors fetch known keyless endpoints (Devpost API, arXiv,
   RSS, Google Patents) via `web_fetch`. `web_search` is registered but unusable
   without a search-provider key — monitor tasks must not call it.

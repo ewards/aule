@@ -1,7 +1,8 @@
 # Problem Repository — Index
 
 One file per problem in `problems/`. Status lifecycle:
-`new → shortlisted → ideated → submitted → won | lost`.
+`new → shortlisted → ideated → submitted → won | lost`;
+`shortlisted → closed` when the deadline passes without submission.
 
 | id | title | source | deadline | status |
 |----|-------|--------|----------|--------|
