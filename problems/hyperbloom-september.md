@@ -5,7 +5,7 @@ source: devpost
 source_url: https://hyperbloom-september.devpost.com/
 deadline: 2026-09-14
 tags: [ai, ml, agents, open-ended, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

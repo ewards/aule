@@ -5,7 +5,7 @@ source: hackerearth
 source_url: https://www.hackerearth.com/challenges/hackathon/github-repo-value-check/
 deadline: 2026-09-20
 tags: [github, developer-tools, repo-analysis, open-ended]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

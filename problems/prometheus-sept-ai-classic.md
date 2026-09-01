@@ -5,7 +5,7 @@ source: devpost
 source_url: https://prometheus-sept-ai-classic.devpost.com/
 deadline: 2026-09-20
 tags: [education, ai, machine-learning, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

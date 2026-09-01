@@ -5,7 +5,7 @@ source: devpost
 source_url: https://syntax-summit.devpost.com/
 deadline: 2027-01-14
 tags: [dsl, compilers, programming-languages, devops, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

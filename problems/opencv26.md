@@ -5,7 +5,7 @@ source: hackathon
 source_url: https://opencv26.devpost.com/
 deadline: 2026-10-27
 tags: [computer-vision, opencv5, aws, physical-ai, agentic-vision]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

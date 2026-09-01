@@ -5,7 +5,7 @@ source: hackathon
 source_url: https://call-e.devpost.com/
 deadline: 2026-09-14
 tags: [ai-agents, telephony, voice, automation, mcp]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

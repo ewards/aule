@@ -5,7 +5,7 @@ source: devpost
 source_url: https://code-for-humanity.devpost.com/
 deadline: 2027-01-15
 tags: [social-good, ai, education, accessibility, underserved-communities, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

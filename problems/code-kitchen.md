@@ -5,7 +5,7 @@ source: hackerearth
 source_url: https://www.hackerearth.com/challenges/hackathon/code-kitchen/
 deadline: 2026-09-15
 tags: [ai, career, reality-show, working-developers, google-cloud]
-status: new
+status: shortlisted
 whitelist: Google
 ---
 

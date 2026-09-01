@@ -5,7 +5,7 @@ source: devpost
 source_url: https://univabio.devpost.com/
 deadline: 2026-10-06
 tags: [health, ai, biotech, early-detection, edtech, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

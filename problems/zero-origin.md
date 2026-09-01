@@ -5,7 +5,7 @@ source: devpost
 source_url: https://zero-origin.devpost.com/
 deadline: 2026-09-26
 tags: [fintech, ai, cloud, healthcare, automation, open-innovation, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

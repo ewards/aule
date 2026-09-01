@@ -5,7 +5,7 @@ source: devpost
 source_url: https://compsphere12.devpost.com/
 deadline: 2026-09-17
 tags: [web3, blockchain, cybersecurity, ai, iot, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

@@ -5,7 +5,7 @@ source: hackathon
 source_url: https://ai-builders-hackathon-2026.devpost.com/
 deadline: 2026-09-15
 tags: [ai, agents, saas, productivity, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

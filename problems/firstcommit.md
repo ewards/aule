@@ -5,7 +5,7 @@ source: devpost
 source_url: https://firstcommit.devpost.com/
 deadline: 2026-09-30
 tags: [beginner, web, mobile, open-ended, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

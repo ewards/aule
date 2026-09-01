@@ -5,7 +5,7 @@ source: hackathon
 source_url: https://gibc-v2.devpost.com/
 deadline: 2026-09-21
 tags: [llm, machine-learning, medical, finance, open-invention, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

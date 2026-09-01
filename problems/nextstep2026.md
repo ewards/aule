@@ -5,7 +5,7 @@ source: hackathon
 source_url: https://nextstep2026.devpost.com/
 deadline: 2026-09-13
 tags: [sustainability, climate, social-good, student, environment]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

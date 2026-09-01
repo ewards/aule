@@ -5,7 +5,7 @@ source: hackathon
 source_url: https://galuxium-nexus-v2-29411.devpost.com/
 deadline: 2026-10-31
 tags: [saas, monetization, ai, automation, creator-tools]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

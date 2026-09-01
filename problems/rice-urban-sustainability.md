@@ -5,7 +5,7 @@ source: devpost
 source_url: https://rice-urban-sustainability.devpost.com/
 deadline: 2026-09-18
 tags: [urban-sustainability, world-cup-2026, data-viz, transportation, energy-food-water, public-health, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

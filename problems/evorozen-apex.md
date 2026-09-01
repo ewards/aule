@@ -5,7 +5,7 @@ source: devpost
 source_url: https://evorozen-apex.devpost.com/
 deadline: 2026-09-20
 tags: [ai, saas, buildathon, user-acquisition, agent-automation, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

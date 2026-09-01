@@ -5,7 +5,7 @@ source: devpost
 source_url: https://animalhack2026.devpost.com/
 deadline: 2026-09-12
 tags: [animal-welfare, social-good, computer-vision, robotics, open-ended]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

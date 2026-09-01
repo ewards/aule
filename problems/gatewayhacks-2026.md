@@ -5,7 +5,7 @@ source: devpost
 source_url: https://gatewayhacks-2026.devpost.com/
 deadline: 2026-10-02
 tags: [social-good, ai, no-code, accessibility, education, sustainability, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

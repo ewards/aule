@@ -5,7 +5,7 @@ source: devpost
 source_url: https://hack2heal.devpost.com/
 deadline: 2026-09-10
 tags: [health, healthtech, ai, biotech, open-innovation, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

@@ -5,7 +5,7 @@ source: hackerearth
 source_url: https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/
 deadline: 2026-10-04
 tags: [energy, sustainability, hackathon, open-ended]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

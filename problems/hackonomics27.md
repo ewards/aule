@@ -5,7 +5,7 @@ source: devpost
 source_url: https://hackonomics27.devpost.com/
 deadline: 2027-06-01
 tags: [fintech, financial-literacy, economics, education, open-ended, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

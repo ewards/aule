@@ -5,7 +5,7 @@ source: devpost
 source_url: https://buuniex-hackathon.devpost.com/
 deadline: 2026-09-22
 tags: [ai, generative-ai, nlp, computer-vision, open-ended, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

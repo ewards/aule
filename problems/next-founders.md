@@ -5,7 +5,7 @@ source: devpost
 source_url: https://next-founders.devpost.com/
 deadline: 2026-10-15
 tags: [startup, founder, business-model, open-ended, student]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

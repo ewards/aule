@@ -5,7 +5,7 @@ source: devpost
 source_url: https://luma-hackathon-fall.devpost.com/
 deadline: 2026-09-28
 tags: [open-ended, build, video, student, live-finals]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

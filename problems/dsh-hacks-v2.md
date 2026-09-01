@@ -5,7 +5,7 @@ source: devpost
 source_url: https://dsh-hacks-v2.devpost.com/
 deadline: 2026-11-08
 tags: [healthcare, ai, student, open-ended]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

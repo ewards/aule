@@ -5,7 +5,7 @@ source: devpost
 source_url: https://munichtech-expo.devpost.com/
 deadline: 2026-09-20
 tags: [europe, ai, industry-4, digital-health, sustainability, enterprise]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

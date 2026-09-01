@@ -5,7 +5,7 @@ source: devpost
 source_url: https://3rd-web-hack.devpost.com/
 deadline: 2026-09-27
 tags: [blockchain, web3, open-ended, student, crypto]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement

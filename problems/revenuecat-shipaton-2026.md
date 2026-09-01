@@ -5,7 +5,7 @@ source: hackathon
 source_url: https://revenuecat-shipaton-2026.devpost.com/
 deadline: 2026-10-01
 tags: [mobile, ios, android, monetization, in-app-purchases]
-status: new
+status: shortlisted
 ---
 
 ## Problem statement
