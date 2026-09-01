@@ -1,3 +1,8 @@
+---
+name: cross-domain
+description: Aule brainstorm technique - import an operating pattern from an unrelated domain that already solves the loop. Load before writing a CROSS-DOMAIN set for a shortlisted problem.
+---
+
 # Cross-domain set
 
 Purpose: import operating patterns from unrelated domains that already

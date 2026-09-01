@@ -1,3 +1,8 @@
+---
+name: inversion
+description: Aule brainstorm technique - enumerate what guarantees losing, then design the removal of the top failure modes. Load before writing an INVERSION set for a shortlisted problem.
+---
+
 # Inversion set
 
 Purpose: design from the failure side - enumerate what guarantees losing,

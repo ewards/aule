@@ -1,3 +1,8 @@
+---
+name: triz
+description: Aule brainstorm technique - resolve the problem's core contradiction with a TRIZ inventive principle. Load before writing a TRIZ set for a shortlisted problem.
+---
+
 # TRIZ set
 
 Purpose: find the non-obvious solution by resolving the problem's core

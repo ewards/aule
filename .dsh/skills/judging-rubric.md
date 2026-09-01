@@ -1,3 +1,8 @@
+---
+name: judging-rubric
+description: Aule judging rubric - four criteria (novelty, feasibility, impact, judge-appeal), weight calibration, scoring discipline, and the ranked.md format. Load before judging a problem's sets.
+---
+
 # Judging rubric
 
 Used to (re)judge all of a problem's sets into `ideas/<slug>/ranked.md`.

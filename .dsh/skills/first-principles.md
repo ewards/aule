@@ -1,3 +1,8 @@
+---
+name: first-principles
+description: Aule brainstorm technique - strip to hard requirements, discard inherited assumptions, rebuild the minimal system. Load before writing a FIRST-PRINCIPLES set for a shortlisted problem.
+---
+
 # First-principles set
 
 Purpose: strip the problem to what is actually required and rebuild the

@@ -14,9 +14,10 @@ cross-domain, inversion) with judged, ranked output.
 - `problems/` — the problem repository (one markdown file per problem + `INDEX.md`).
 - `ideas/` — brainstorming sets and ranked shortlists per problem
   (see `ideas/README.md`).
-- `skills/` — the brainstorm technique playbooks (TRIZ, SCAMPER,
+- `.dsh/skills/` — the brainstorm technique playbooks (TRIZ, SCAMPER,
   first-principles, cross-domain, inversion) and the judging rubric,
-  read by the brainstorm monitor at run time.
+  installed as aule skills (auto-discovered from the project root) and
+  loaded via the `skill` tool by the brainstorm monitor at run time.
 - `inbox/REVIEW.md` — the monitor → human review queue.
 - `digests/` — dated trend digests from the trends monitor.
 - `monitors/` — cron-driven headless tasks (`radar.md`, `brainstorm.md`,

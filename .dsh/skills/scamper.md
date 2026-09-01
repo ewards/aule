@@ -1,3 +1,8 @@
+---
+name: scamper
+description: Aule brainstorm technique - bend the seven SCAMPER moves against the naive solution. Load before writing a SCAMPER set for a shortlisted problem.
+---
+
 # SCAMPER set
 
 Purpose: generate variations by bending each of seven moves against the
