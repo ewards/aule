@@ -7,6 +7,17 @@ Nothing in this file is model-owned state — it is the handoff to a human.
 
 <!-- newest first -->
 
+2026-09-01: PRIORITY 72h: TikTok TechJam 2026 — 2026-09-01 (new)
+2026-09-01: PRIORITY 72h: 3D Websites Hackathon — 2026-09-02 (new)
+2026-09-01: PRIORITY 72h: The WebMCP Challenge — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: DevNetwork [API + Cloud + AI] Hackathon 2026 — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: SPEED August AI Challenge — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: Hack for Humanity | Summer 2026 (+13 non-cash prizes) — 2026-09-04 (new)
+2026-09-01: DEADLINE CHANGED: RevenueCat Shipaton 2026 2026-09-30 -> 2026-10-01
+2026-09-01: DEADLINE CHANGED: 3D Websites Hackathon 2026-08-31 -> 2026-09-02
+2026-09-01: DEADLINE CHANGED: OpenCV AI Competition 2026, powered by AWS 2026-10-26 -> 2026-10-27
+2026-09-01: New problems: 15 — GatewayHacks 2026 | Software & AI, The Rice University Urban Sustainability Hackathon, AI YES :International Youth AI Competition, UnivaBio, Hackonomics 2027, Code for Humanity, Beginner's Paradise - FirstCommit, SPEED September AI Challenge, COMPSPHERE 12, BunnieX Hackathon, AnimalHack 2026, DSH Hacks V2, Evorozen Apex: NextGen AI Buildathon, SPEED October AI Challenge, Syntax Summit
+
 2026-09-01: New problems: 15 — CALL-E: Your Code Is Calling, TikTok TechJam 2026, Nebius x NVIDIA Global AI Hackathon, AI Builders Hackathon, VoltHacks, 3D Websites Hackathon, DevNetwork [API + Cloud + AI] Hackathon 2026, Hack for Humanity | Summer 2026 (+13 non-cash prizes), OpenCV AI Competition 2026, powered by AWS, Hacksocial 2026, Global Innovation Build Challenge V2, Galuxium Nexus V2, SPEED August AI Challenge, Build, Ship, Shape: Amazon Developer Hackathon, NextStep Hacks 2026
 
 ## Done

@@ -3,7 +3,7 @@ id: opencv26
 title: "OpenCV AI Competition 2026, powered by AWS"
 source: hackathon
 source_url: https://opencv26.devpost.com/
-deadline: 2026-10-26
+deadline: 2026-10-27
 tags: [computer-vision, opencv5, aws, physical-ai, agentic-vision]
 status: new
 ---

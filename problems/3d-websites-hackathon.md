@@ -3,7 +3,7 @@ id: 3d-websites-hackathon
 title: 3D Websites Hackathon
 source: hackathon
 source_url: https://3d-websites-hackathon.devpost.com/
-deadline: 2026-08-31
+deadline: 2026-09-02
 tags: [webgl, 3d-web, creative-coding, design, webgpu]
 status: new
 ---

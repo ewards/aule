@@ -3,7 +3,7 @@ id: revenuecat-shipaton-2026
 title: RevenueCat Shipaton 2026
 source: hackathon
 source_url: https://revenuecat-shipaton-2026.devpost.com/
-deadline: 2026-09-30
+deadline: 2026-10-01
 tags: [mobile, ios, android, monetization, in-app-purchases]
 status: new
 ---
