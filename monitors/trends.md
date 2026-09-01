@@ -1,5 +1,9 @@
 Run the Aule trends monitor.
 
+Rules:
+- Work strictly sequentially and inline. Do not use background jobs or subagents:
+  this process exits when you stop and any pending work is lost.
+
 1. Use web_fetch (never web_search — no search backend is configured) on:
    - `http://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=10`
    - `https://hnrss.org/frontpage`
@@ -7,5 +11,7 @@ Run the Aule trends monitor.
    each of what they claim, then the top-5 HN titles. Keep it under 60 lines.
 3. Append one dated entry under `## Pending` in `inbox/REVIEW.md`:
    `Trends digest: digests/trends-<date>.md`.
+4. Before your final answer, re-read the digest file and `inbox/REVIEW.md`
+   and confirm both writes are present on disk.
 
 Final answer: exactly one line — `trends monitor: digest written`.
