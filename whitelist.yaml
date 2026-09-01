@@ -1,0 +1,31 @@
+# Organizer whitelist, ported from hackathon-radar (retired into aule 2026-09-01).
+# A match sets a fit floor of 4: ministry, PSU, IIT, and named-corporate events
+# are flagged for attention even before any deeper assessment.
+# Patterns are case-insensitive regex, matched against organizer plus title.
+organizers:
+  - "\\bISRO\\b"
+  - "\\bDRDO\\b"
+  - "\\bMeitY\\b"
+  - "\\bIndiaAI\\b"
+  - "Ministry of"
+  - "\\bAICTE\\b"
+  - "\\bMIC\\b|Innovation Cell"
+  - "\\bIIT\\b|Indian Institute of Technology"
+  - "\\bIISc\\b"
+  - "\\bNIT\\b"
+  - "\\bBhashini\\b"
+  - "\\biDEX\\b"
+  - "\\bIHFC\\b"
+  - "e-?Yantra"
+  - "\\bSAE ?India\\b|\\bSAEINDIA\\b"
+  - "\\bL&T Technology\\b|\\bLTTS\\b|TECHgium"
+  - "\\bKPIT\\b"
+  - "\\bFlipkart\\b"
+  - "\\bAmazon\\b"
+  - "\\bGoogle\\b"
+  - "\\bMicrosoft\\b"
+  - "\\bBosch\\b"
+  - "\\bTCS\\b|Tata Consultancy"
+  - "\\bQualcomm\\b"
+  - "\\bNVIDIA\\b"
+  - "\\bStartupTN\\b|\\biTNT\\b"

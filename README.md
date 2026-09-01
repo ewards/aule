@@ -15,7 +15,9 @@ cross-domain, inversion) with judged, ranked output.
 - `ideas/` — brainstorming sets and ranked shortlists per problem.
 - `inbox/REVIEW.md` — the monitor → human review queue.
 - `digests/` — dated trend digests from the trends monitor.
-- `monitors/` — cron-driven headless tasks (`hackathon.md`, `trends.md`) + `run.sh`.
+- `monitors/` — cron-driven headless tasks (`radar.md`, `trends.md`) + `run.sh`.
+- `whitelist.yaml` — organizer whitelist (ministry/PSU/IIT/corporate fit floor),
+  ported from hackathon-radar.
 
 ## Model
 
@@ -43,9 +45,22 @@ node ~/workspace/workspace-ewards/deepseek-harness/apps/cli/lib/bin.js --profile
 Monitors (cron-driven, off-peak):
 
 ```sh
-monitors/run.sh monitors/hackathon.md
-monitors/run.sh monitors/trends.md
+monitors/run.sh monitors/radar.md     # discovery: Devpost + HackerEarth, nightly
+monitors/run.sh monitors/trends.md    # arXiv + HN digest, Mondays
 ```
+
+Discovery rules (owned by `monitors/radar.md`): dedupe against `problems/INDEX.md`
+by source url, ingest cap of 15 per run, `whitelist.yaml` organizer matches get a
+`whitelist:` frontmatter flag, deadlines within 72h are surfaced as
+`PRIORITY 72h` lines, moved deadlines are written back and reported as
+`DEADLINE CHANGED`, and source failures leave a `source-health` note. All of these
+land in `inbox/REVIEW.md` — the monitor never alerts outside the repository.
+
+Provenance: the Python/Docker `hackathon-radar` project (retired 2026-09-01) is the
+source of the fetcher endpoints and verification notes, `whitelist.yaml`, the alert
+rules, and the first-run source-health check. Its Postgres store, Docker scheduler,
+webhook alerts, and dashboard were not ported; this repository's markdown tree plus
+host cron replace them.
 
 ## Conventions
 
