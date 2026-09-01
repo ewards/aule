@@ -6,6 +6,7 @@ source_url: https://amazonappdev2026.devpost.com/
 deadline: 2026-10-23
 tags: [amazon, fire-tv, alexa, ring, wearable, mcp, agents]
 status: new
+whitelist: Amazon
 ---
 
 ## Problem statement

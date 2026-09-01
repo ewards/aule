@@ -6,6 +6,7 @@ source_url: https://allthingsagentichackathon.devpost.com/
 deadline: 2026-08-31
 tags: [ai-agents, gemini, google-cloud, enterprise, automation]
 status: new
+whitelist: Google
 ---
 
 ## Problem statement

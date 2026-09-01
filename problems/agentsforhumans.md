@@ -6,6 +6,7 @@ source_url: https://agentsforhumans.devpost.com/
 deadline: 2026-09-14
 tags: [ai-agents, aws, strands, productivity, automation]
 status: new
+whitelist: Amazon
 ---
 
 ## Problem statement

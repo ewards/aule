@@ -6,6 +6,7 @@ source_url: https://nebiusglobalaihackathon.devpost.com/
 deadline: 2026-10-30
 tags: [ai, nvidia, nebius, nemotron, agents, gpu]
 status: new
+whitelist: NVIDIA
 ---
 
 ## Problem statement

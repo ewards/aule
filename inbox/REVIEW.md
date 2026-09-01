@@ -7,6 +7,18 @@ Nothing in this file is model-owned state — it is the handoff to a human.
 
 <!-- newest first -->
 
+2026-09-01: PRIORITY 72h: AI YES :International Youth AI Competition — 2026-09-01 (new)
+2026-09-01: PRIORITY 72h: Smart City Hackathon Lahore — 2026-09-01 (new)
+2026-09-01: PRIORITY 72h: TikTok TechJam 2026 — 2026-09-01 (new)
+2026-09-01: PRIORITY 72h: 3D Websites Hackathon — 2026-09-02 (new)
+2026-09-01: PRIORITY 72h: Build With Gemini - Creation Code — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: DevNetwork [API + Cloud + AI] Hackathon 2026 — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: SPEED August AI Challenge — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: TechX Rwanda Hackathon — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: The WebMCP Challenge — 2026-09-03 (new)
+2026-09-01: PRIORITY 72h: Hack for Humanity | Summer 2026 (+13 non-cash prizes) — 2026-09-04 (new)
+2026-09-01: New problems: 15 — ⚑Code Kitchen, GitHub Repo Value Check, Yuva Yodha Energy Tech Hackathon, Smart City Hackathon Lahore, Next Founders Hackathon, Hyperbloom September - AI/ML, Hack2Heal 2.0 - Global Healthcare Innovation Hackathon, LUMA Hackathon (September 20th - 28th), Zero Origin, MunichTech EXPO, Build With Gemini - Creation Code, TechX Rwanda Hackathon, 3rd-Web-Hack, Gemini Event - HackMatrix, Agentic Hackathon
+
 2026-09-01: PRIORITY 72h: TikTok TechJam 2026 — 2026-09-01 (new)
 2026-09-01: PRIORITY 72h: 3D Websites Hackathon — 2026-09-02 (new)
 2026-09-01: PRIORITY 72h: The WebMCP Challenge — 2026-09-03 (new)

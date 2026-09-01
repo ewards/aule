@@ -6,6 +6,7 @@ source_url: https://agentic-cinema.devpost.com/
 deadline: 2026-09-09
 tags: [ai-agents, gemini, media-entertainment, mcp, google-cloud]
 status: new
+whitelist: Google
 ---
 
 ## Problem statement

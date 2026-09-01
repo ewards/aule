@@ -6,6 +6,7 @@ source_url: https://webmcp.devpost.com/
 deadline: 2026-09-03
 tags: [webmcp, ai-agents, web, agent-native]
 status: new
+whitelist: Google
 ---
 
 ## Problem statement

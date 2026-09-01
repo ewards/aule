@@ -40,6 +40,21 @@ One file per problem in `problems/`. Status lifecycle:
 | evorozen-apex | Evorozen Apex: NextGen AI Buildathon | devpost | 2026-09-20 | new |
 | prometheus-september-ai-2 | SPEED October AI Challenge | devpost | 2026-10-14 | new |
 | syntax-summit | Syntax Summit | devpost | 2027-01-14 | new |
+| github-repo-value-check | GitHub Repo Value Check | hackerearth | 2026-09-20 | new |
+| yuva-yodha-energy-tech-hackathon | Yuva Yodha Energy Tech Hackathon | hackerearth | 2026-10-04 | new |
+| code-kitchen | Code Kitchen | hackerearth | 2026-09-15 | new |
+| smart-city-hackathon-lahore | Smart City Hackathon Lahore | devpost | 2026-09-01 | new |
+| next-founders | Next Founders Hackathon | devpost | 2026-10-15 | new |
+| hyperbloom-september | Hyperbloom September - AI/ML | devpost | 2026-09-14 | new |
+| hack2heal | Hack2Heal 2.0 - Global Healthcare Innovation Hackathon | devpost | 2026-09-10 | new |
+| luma-hackathon-fall | LUMA Hackathon (September 20th - 28th) | devpost | 2026-09-28 | new |
+| zero-origin | Zero Origin | devpost | 2026-09-26 | new |
+| munichtech-expo | MunichTech EXPO | devpost | 2026-09-20 | new |
+| creation-code-30750 | Build With Gemini - Creation Code | devpost | 2026-09-03 | new |
+| techx-rwanda-hackathon | TechX Rwanda Hackathon | devpost | 2026-09-03 | new |
+| 3rd-web-hack | 3rd-Web-Hack | devpost | 2026-09-27 | new |
+| gemini-event-hackmatrix | Gemini Event - HackMatrix | devpost | 2026-09-05 | new |
+| agentic-hackathon | Agentic Hackathon | devpost | 2026-09-06 | new |
 
 ## Entry template
 
