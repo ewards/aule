@@ -19,6 +19,8 @@ Sources (fetch both, in this order):
 Steps:
 1. Repair: list `problems/*.md`. Any file whose slug is not a row in
    `problems/INDEX.md` is orphaned — read it and add its row before anything else.
+   Also backfill whitelist flags: any tracked entry lacking a `whitelist:` line
+   whose organizer or title matches `whitelist.yaml` gets the line added.
 2. Fetch both sources. Source health: if a source returns zero items, or more than
    half its items lack a parseable deadline, note `source-health: <source> — <symptom>`
    in the review entry at step 6.
@@ -29,7 +31,9 @@ Steps:
 4. 72-hour gate: every tracked hackathon whose deadline falls within the next 72
    hours and whose status is not `submitted`, `won`, or `lost` is urgent. List these
    at the top of the review entry as `PRIORITY 72h: <title> — <deadline> (<status>)`.
-5. For the first 15 not-yet-tracked hackathons (dedupe by source url):
+5. For the first 15 not-yet-tracked hackathons (dedupe by source url),
+   ingesting HackerEarth events first and then Devpost, so the smaller
+   India-centric source is never crowded out by the Devpost volume:
    - Fetch its detail page once to extract the problem statement, judging criteria,
      prizes, and eligibility if present.
    - Create `problems/<slug>.md` from the template in `problems/INDEX.md`,
