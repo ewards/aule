@@ -7,6 +7,10 @@ Nothing in this file is model-owned state — it is the handoff to a human.
 
 <!-- newest first -->
 
+2026-09-02: IDEATED: Build, Ship, Shape: Amazon Developer Hackathon — 22 candidates, top: Door-to-Screen Care Loop
+2026-09-02: IDEATED: Nebius x NVIDIA Global AI Hackathon — 22 candidates, top: Shadow Sandbox
+2026-09-02: IDEATED: Zero Origin — 22 candidates, top: Pre-Sorted Intake for Food Waste
+
 2026-09-01: CLOSED: All Things Agentic Hackathon (deadline 2026-08-31)
 2026-09-01: IDEATED: The WebMCP Challenge — 23 candidates, top: Measured Baseline Pitch
 2026-09-01: IDEATED: Agentic Cinema: The Blockbuster Hackathon — 23 candidates, top: Seeded Replay

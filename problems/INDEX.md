@@ -13,7 +13,7 @@ One file per problem in `problems/`. Status lifecycle:
 | webmcp | The WebMCP Challenge | hackathon | 2026-09-03 | ideated |
 | call-e | CALL-E: Your Code Is Calling | hackathon | 2026-09-14 | shortlisted |
 | tiktoktechjam2026 | TikTok TechJam 2026 | hackathon | 2026-09-01 | new |
-| nebiusglobalaihackathon | Nebius x NVIDIA Global AI Hackathon | hackathon | 2026-10-30 | shortlisted |
+| nebiusglobalaihackathon | Nebius x NVIDIA Global AI Hackathon | hackathon | 2026-10-30 | ideated |
 | ai-builders-hackathon-2026 | AI Builders Hackathon | hackathon | 2026-09-15 | shortlisted |
 | volthacks | VoltHacks | hackathon | 2026-09-05 | new |
 | 3d-websites-hackathon | 3D Websites Hackathon | hackathon | 2026-09-02 | new |
@@ -24,7 +24,7 @@ One file per problem in `problems/`. Status lifecycle:
 | gibc-v2 | Global Innovation Build Challenge V2 | hackathon | 2026-09-21 | shortlisted |
 | galuxium-nexus-v2-29411 | Galuxium Nexus V2 | hackathon | 2026-10-31 | shortlisted |
 | august-ai-challenge-31059 | SPEED August AI Challenge | hackathon | 2026-09-03 | new |
-| amazonappdev2026 | Build, Ship, Shape: Amazon Developer Hackathon | hackathon | 2026-10-23 | shortlisted |
+| amazonappdev2026 | Build, Ship, Shape: Amazon Developer Hackathon | hackathon | 2026-10-23 | ideated |
 | nextstep2026 | NextStep Hacks 2026 | hackathon | 2026-09-13 | shortlisted |
 | gatewayhacks-2026 | GatewayHacks 2026 \| Software & AI | devpost | 2026-10-02 | shortlisted |
 | rice-urban-sustainability | The Rice University Urban Sustainability Hackathon | devpost | 2026-09-18 | shortlisted |
@@ -49,7 +49,7 @@ One file per problem in `problems/`. Status lifecycle:
 | hyperbloom-september | Hyperbloom September - AI/ML | devpost | 2026-09-14 | shortlisted |
 | hack2heal | Hack2Heal 2.0 - Global Healthcare Innovation Hackathon | devpost | 2026-09-10 | shortlisted |
 | luma-hackathon-fall | LUMA Hackathon (September 20th - 28th) | devpost | 2026-09-28 | shortlisted |
-| zero-origin | Zero Origin | devpost | 2026-09-26 | shortlisted |
+| zero-origin | Zero Origin | devpost | 2026-09-26 | ideated |
 | munichtech-expo | MunichTech EXPO | devpost | 2026-09-20 | shortlisted |
 | creation-code-30750 | Build With Gemini - Creation Code | devpost | 2026-09-03 | new |
 | techx-rwanda-hackathon | TechX Rwanda Hackathon | devpost | 2026-09-03 | new |
