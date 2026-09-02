@@ -64,8 +64,8 @@ as the idea.
 
 ## Decisions
 
-(to be filled by the human: accepted / rejected / park)
-
-- Pre-Sorted Intake for Food Waste (set-1): ______
+- Pre-Sorted Intake for Food Waste (set-1): accepted 2026-09-02 (user) -
+  the submission, with The Pilot Letter layered on as impact proof.
 - The App That Asks Three Questions a Day (set-2): ______
-- The Pilot Letter (set-3): ______
+- The Pilot Letter (set-3): accepted 2026-09-02 (user) - layered on top of
+  Pre-Sorted Intake, replacing the TAM slide as impact proof.

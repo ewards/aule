@@ -26,4 +26,12 @@ None tracked yet — first appearance of this problem in the repository.
 
 ## Ideas
 
-- None yet.
+- **Accepted 2026-09-02 (user decision):** Pre-Sorted Intake for Food Waste
+  (TRIZ, `ideas/zero-origin/set-1.md` #1) — waste category-labelled at the
+  moment it enters the kitchen; per-category accumulation with a weekly
+  "order less of this" list. The Pilot Letter
+  (`ideas/zero-origin/set-3.md` #2) layered on top: a named institution on
+  video committing to pilot, replacing the TAM slide as impact proof.
+  Round 1 deck per the inversion set's anti-pitch: 15 slides, bin-log data
+  on slide 2, named user on slide 1, 10-day Round 2 build plan last.
+  Full ranking and kill-risks: `ideas/zero-origin/ranked.md`.
