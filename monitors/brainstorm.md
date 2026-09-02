@@ -14,6 +14,9 @@ Rules:
   say so in a one-line evidence note in its set file; do not invent
   context.
 - Process at most 3 problems this run; the rest wait for the next run.
+- Preparation window: a problem is eligible only if its `deadline` is at
+  least 21 days after today. Problems with less lead time are skipped,
+  not closed - step 1 closes them when the deadline itself passes.
 - Use today's date from the request context for all date math.
 
 Techniques: the five method playbooks and the judging rubric are
@@ -26,10 +29,11 @@ Steps:
 1. Close expired: every `problems/*.md` with `status: shortlisted` whose
    `deadline` is earlier than today gets `status: closed` in the file and
    its INDEX row. Record `CLOSED: <title> (deadline <deadline>)` for each.
-2. Select the batch: among entries with `status: shortlisted`, take at
-   most 3, whitelisted (a `whitelist:` frontmatter line) first and then
-   nearest deadline, skipping any problem that already has set files for
-   all 5 methods (fully ideated). If none is selected, skip steps 3-5.
+2. Select the batch: among entries with `status: shortlisted` whose
+   deadline is at least 21 days after today, take at most 3, whitelisted
+   (a `whitelist:` frontmatter line) first and then nearest deadline,
+   skipping any problem that already has set files for all 5 methods
+   (fully ideated). If none is selected, skip steps 3-5.
 3. For each selected problem, in the fixed order triz, scamper,
    first-principles, cross-domain, inversion, for each method that does
    not yet have a set file in `ideas/<slug>/`:

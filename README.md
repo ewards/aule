@@ -64,7 +64,8 @@ by source url, ingest cap of 15 per run, `whitelist.yaml` organizer matches get 
 land in `inbox/REVIEW.md` — the monitor never alerts outside the repository.
 
 Ideation rules (owned by `monitors/brainstorm.md`): at most 3 shortlisted
-problems per run (whitelisted first, then nearest deadline); each problem
+problems per run, only those with at least 21 days of preparation time
+left (whitelisted first, then nearest deadline); each problem
 gets one `ideas/<slug>/set-<n>.md` per technique method (TRIZ, SCAMPER,
 first-principles, cross-domain, inversion, in that order) built only from
 the problem file itself; all sets are re-judged into the problem's
