@@ -7,6 +7,13 @@ Phase 1 vertical: **ideation** — a problem repository fed by scheduled monitor
 and a human-gated brainstorming pipeline (TRIZ, SCAMPER, first-principles,
 cross-domain, inversion) with judged, ranked output.
 
+## Documentation
+
+- `docs/pipeline.md` — the system: stages, lifecycle, standing rules, and why.
+- `docs/operations.md` — the runbook: running monitors, queue triage,
+  recording decisions, known failure modes.
+- `docs/state-2026-09-03.md` — dated state snapshot (superseded as the state moves).
+
 ## Layout
 
 - `profile/` — the `aule` dsh profile (bundles: `dsh-base` + `dsh-headless`;
