@@ -15,6 +15,21 @@ if [ -f "$HOME/.dsh/.env" ]; then
   set +a
 fi
 
+# Cron's minimal PATH does not include nvm's bin: resolve node explicitly
+# (lowest installed version first - the one the harness is verified on).
+if ! command -v node >/dev/null 2>&1; then
+  for n in "$HOME"/.nvm/versions/node/*/bin; do
+    if [ -x "$n/node" ]; then
+      export PATH="$n:$PATH"
+      break
+    fi
+  done
+fi
+command -v node >/dev/null 2>&1 || {
+  echo "aule monitor: node not found (checked PATH and ~/.nvm/versions/node/*/bin)" >&2
+  exit 127
+}
+
 # The invoking directory is the dsh workspace root: run from aule so the
 # agent's file tools are confined here.
 cd "$AULE"
